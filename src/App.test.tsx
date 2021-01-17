@@ -4,7 +4,7 @@ import App from './App';
 
 describe('When everyhting is ok', () => {
   test('should render the App component without crashing', () => {
-    render(<App />);
+    render(<App />)
     screen.debug();
   })
 })
