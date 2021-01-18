@@ -26,4 +26,8 @@ describe('When everyhting is ok', () => {
   test('should select input element by placeholder text', () => {
     screen.getByPlaceholderText('Example');
   })
+
+  test('should select the input element by its role with queryByRole', () => {
+    expect(screen.queryByRole('textbox'));
+  });
 })
