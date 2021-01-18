@@ -31,7 +31,10 @@ function CustomInput({children, value, onChange}: CustomInputProps) {
     <label htmlFor="search">
       {children}
     </label>
-    <input id="search" type="text" value={value} onChange={onChange}/>
+      <input placeholder="Example" id="search" 
+      type="text" 
+      value={value} 
+      onChange={onChange}/>
   </div>
   )
 }
